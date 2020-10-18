@@ -6,6 +6,8 @@ import background from './img/background-pic.png'
 function App() {
   return (
     <div className="App">
+     
+
       <header className="App-header">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous"></link>
         </header>
@@ -15,9 +17,9 @@ function App() {
           <p className="h1 second">植物用<span className="big">LED</span></p>
         
         <div className="note">
-          <p className="wow">室内の植物からいちごまで</p>
-          <p className="wow">いろんなとこに使える賢いLED</p>
-          <p className="wow">MARS HYDRO LEDを紹介します！</p>
+          <p className="intro">室内の植物からいちごまで</p>
+          <p className="intro">いろんなとこに使える賢いLED</p>
+          <p className="intro">MARS HYDRO LEDを紹介します！</p>
         </div>
         <div className="functions">
           <p className="text">家庭</p>
