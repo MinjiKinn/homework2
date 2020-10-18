@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+
+@media only screen
+and (min-width : 320px) {
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: url('./img/background-pic.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 2000px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.7rem;
+}
+
+.first {
+  margin-right: 3rem;
+}
+
+.second {
+  padding-left: 3rem;
+}
+
+.big {
+  letter-spacing: 0.3em;
+  margin-left: 1rem;
+}
+.note {
+  margin-top: 0.5rem;
+  font-size: 2.5vw;
+}
+.wow {
+  margin: 0;
+}
+
+.functions {
+  font-size: 2vw;
+  margin-top: 3.3rem;
+  margin-bottom: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  padding: 0 1rem;
+}
+
+.text2 {
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+}
+.title2 {
+  margin: 0;
+}
+.recomend {
+  margin: 0;
+}
+.reason {
+  margin: 0.8rem 0;
+  font-size: 3vw;
+}
+.reason2 {
+  margin: 0.8rem 0;
+  font-size: 3vw;
+
+}
+
+
+
+}
